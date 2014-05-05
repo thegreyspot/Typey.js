@@ -20,6 +20,8 @@ Typey.js requires jQuery and is itself only 2KB. The CSS file contains the helpe
 ```
 
 ## Options
+
+```html
 <script>
   $("#intro").typey({
   	'words' : ['cat', 'dog', 'mouse'], //Array of words to display
@@ -28,6 +30,7 @@ Typey.js requires jQuery and is itself only 2KB. The CSS file contains the helpe
     'isInfinite' : true	//Keep cylcing through the 'words' array
   });
 </script>
+```
 
 ### More options
 You can set the location of where the words will be typed in the sentence.
