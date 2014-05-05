@@ -1,7 +1,7 @@
 Typey.js
 =====
 
-A jQuery plugin that prints out provided words like a typewriter or old console. Similar to what Google I/O 2014 used. See example here: http://thegreyspot.github.io/Typey.js
+A jQuery plugin that prints out provided words, letter by letter, like a typewriter or old console. Similar to what Google I/O 2014 website has. See example here: http://thegreyspot.github.io/Typey.js
 
 ## Usage
 Typey.js requires jQuery and is itself only 2KB. The CSS file contains the helper class for a blinking cursor. It's probably easier to just add it to your own CSS file and cut down on one less HTTP request.
@@ -25,7 +25,7 @@ Typey.js requires jQuery and is itself only 2KB. The CSS file contains the helpe
 <script>
   $("#intro").typey({
   	'words' : ['cat', 'dog', 'mouse'], //Array of words to display
-    'typingSpeed' : 100, //speed at which to type
+    'typingSpeed' : 100, //Speed at which to type
     'wordDelay' : 400, //Delay between words
     'isInfinite' : true	//Keep cylcing through the 'words' array
   });
