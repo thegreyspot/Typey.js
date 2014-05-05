@@ -1,7 +1,7 @@
 typey.js
 =====
 
-A jQuery plugin that prints out provided words like a typewriter or old console. Similar to what Google I/O 2014 used. See example here: http://username.github.io/Typey.js
+A jQuery plugin that prints out provided words like a typewriter or old console. Similar to what Google I/O 2014 used. See example here: http://thegreyspot.github.io/typey.js
 
 ## Usage
 Typey.js requires jQuery and is itself only 2KB. The CSS file contains the helper class for a blinking cursor. It's probably easier to just add it to your own CSS file and cut down on one less HTTP request.
@@ -44,6 +44,6 @@ You can also include the array of words, right in the div itself.
 <div data-typey-words="robot, computer, ai">I am a </div>
 ```
 
-### Other things
+## Other things
 - Created by Michael Humphries (@thegreyspot on twitter, and 'thegreyspot' everywhere else on the internet)
 - Design idea from Rotem K.
