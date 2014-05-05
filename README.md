@@ -1,7 +1,7 @@
-typey.js
+Typey.js
 =====
 
-A jQuery plugin that prints out provided words like a typewriter or old console. Similar to what Google I/O 2014 used. See example here: http://thegreyspot.github.io/typey.js
+A jQuery plugin that prints out provided words like a typewriter or old console. Similar to what Google I/O 2014 used. See example here: http://thegreyspot.github.io/Typey.js
 
 ## Usage
 Typey.js requires jQuery and is itself only 2KB. The CSS file contains the helper class for a blinking cursor. It's probably easier to just add it to your own CSS file and cut down on one less HTTP request.
