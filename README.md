@@ -15,7 +15,9 @@ Typey.js requires jQuery and is itself only 2KB. The CSS file contains the helpe
 <!--- Gets typey going -->
 <div id="intro">Hello my name is </div>
 <script>
-  $("#intro").typey();
+  $("#intro").typey({
+  	'words' : ['cat', 'dog', 'mouse']
+  });
 </script>
 ```
 
@@ -35,7 +37,7 @@ Typey.js requires jQuery and is itself only 2KB. The CSS file contains the helpe
 ### More options
 You can set the location of where the words will be typed in the sentence.
 
-Add '<span class="typey"></span>' where you want the words typed into.
+Add `<span class="typey"></span>` where you want the words typed into.
 
 ```html
 <div>This <span class="typey"></span> is typing with Typey.js</div>
@@ -48,5 +50,5 @@ You can also include the array of words, right in the div itself.
 ```
 
 ## Other things
-- Created by Michael Humphries (@thegreyspot on twitter, and 'thegreyspot' everywhere else on the internet)
-- Design idea from Rotem K.
+- Created by Michael Humphries (@thegreyspot on twitter, and 'thegreyspot' everywhere else on the interwebs)
+- Design help from Rotem K.
